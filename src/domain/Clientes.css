@@ -1,0 +1,20 @@
+.box{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+    background-color:azure;
+}
+.panelForm{
+	display: flex;
+	justify-content: center;
+	flex-direction: row ;
+
+}
+.panelFormAlta{
+    background-color:#11ADD6;
+
+}
+.panelFormBusqueda{
+	flex-grow: 4;
+    background-color:#72B8FA ;
+}
