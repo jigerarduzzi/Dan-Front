@@ -4,6 +4,7 @@ const ClientesForm = ({ cliente }) => {
         return (
                 <section>
                         <ul class="form-register">
+                                <h4>Dar de alta clientes</h4>
                                 <li class="controls">
                                         <div class="fifty-fifty"> 
                                         {/* Cuando necesite disponer elementos, encerrar entre divs */}

@@ -1,6 +1,7 @@
 import './Clientes.css';
-
+import ClientesResultados from './ClientesResultados';
 import ClientesForm from './ClientesForm';
+import ClientesBusqueda from './ClientesBusqueda'
 
 const clienteInicial = {
 	id:0,
@@ -17,9 +18,13 @@ const Clientes = () => {
                 <div className="panelFormAlta">
                     <ClientesForm cliente = {clienteInicial}/>
                     </div>
-                <div className="panelFormBusqueda">Busqueda</div>
+                <div className="panelFormBusqueda">
+
+                    <ClientesBusqueda cliente = {clienteInicial}/>
+                
+                </div>
             </div>
-            <div>Listado</div>
+            <div>Resultados</div>
         </div>
     )
 }

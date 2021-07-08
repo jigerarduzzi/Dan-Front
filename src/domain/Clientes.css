@@ -2,7 +2,8 @@
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-    background-color:azure;
+    background-color:#11ADD6;
+	padding: 20px;
 }
 .panelForm{
 	display: flex;
@@ -16,5 +17,11 @@
 }
 .panelFormBusqueda{
 	flex-grow: 4;
-    background-color:#72B8FA ;
+    background-color:#11ADD6 ;
+	justify-content: center;
+}
+
+.box h1 {
+	color: #24303c;
+	
 }

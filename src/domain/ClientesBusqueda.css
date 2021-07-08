@@ -14,7 +14,6 @@
     font-family: 'calibri';
     color:white;
     margin: 20px 0;
-    box-shadow: 7px 13px 27px #000;
 }
 
 .controls{
@@ -23,7 +22,7 @@
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
-   /* border: 1px solid #1f53c5;*/
+    border: 1 px solid #1f53c5;
 }
 
 .form-register .botons{ /*Cuando queres editar todos los botos dentro del form register*/
@@ -76,17 +75,10 @@
     border: 1px solid #ffff;
     border-radius: 4px;
     color: white;
-    padding: 5px;
 
 }
 
 .form-register h4{
     font-size: 22px;
-    margin-bottom: 20 px;
-}
-
-.panelFormBusqueda {
-    display: flex;
-    justify-content: center;
-    width: 50%;
+    margin-bottom: 20px;
 }
