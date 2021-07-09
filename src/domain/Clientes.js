@@ -24,7 +24,9 @@ const Clientes = () => {
                 
                 </div>
             </div>
-            <div>Resultados</div>
+            <div>
+                <ClientesResultados/>     
+            </div>
         </div>
     )
 }

@@ -1,0 +1,24 @@
+table, th, td {
+    border-collapse: collapse;
+ 
+  }
+
+
+  th {
+      color: #ffff;
+      background-color: #24303c;
+      padding: 4px;
+  }
+
+  table {
+
+    margin: 20px 0;
+    box-shadow: 7px 13px 27px #000;
+    border: none;
+    border-radius: 8px;
+  }
+
+  td{
+    background:#294fa0;
+    color: white;
+  }
