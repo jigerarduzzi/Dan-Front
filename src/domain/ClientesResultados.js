@@ -2,6 +2,7 @@ import './ClientesResultados.css';
 
 const ClientesResultados = () =>{
     return(
+
         <table >
             <tr>
                 <th>Columna 1</th>
@@ -19,6 +20,7 @@ const ClientesResultados = () =>{
                 <td>Dato 2.3</td>
             </tr>
         </table> 
+
     )
 }
 

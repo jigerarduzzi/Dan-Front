@@ -1,6 +1,17 @@
+import { act } from '@testing-library/react';
 import './ClientesForm.css';
+import { useState } from 'react';
 
-const ClientesForm = ({ cliente }) => {
+const ClientesForm = ({cliente, actualizarValor }) => {
+
+        const [razonSocial, setRazonSocial]=useState(cliente.razonSocial);
+
+        const actualizarCambio = evt => {
+                evt.preventDefault();
+                const nuevoValor= evt.target.value;
+                console.log("nuevo valor "+nuevoValor);
+                setRazonSocial(nuevoValor);
+        }
         return (
                 <section>
                         <ul class="form-register">
@@ -9,7 +20,7 @@ const ClientesForm = ({ cliente }) => {
                                         <div class="fifty-fifty"> 
                                         {/* Cuando necesite disponer elementos, encerrar entre divs */}
                 <label>Razón social</label>
-                                                <input name="razonSocial" value={cliente.razonSocial} />
+                                                <input name="razonSocial" value={razonSocial} onChange={actualizarCambio}  />
                                         </div>
                                 </li>
                                 <li class="controls">
@@ -38,7 +49,7 @@ const ClientesForm = ({ cliente }) => {
                                 </li>
                                 <li class="controls">
                                         <div class = "fifty-fifty-botons">
-                                        <button type="botons">Guardar</button>
+                                        <button type="botons" onClick={()=>actualizarValor(cliente)}>Guardar</button>
                                         <button type="botons">Cancelar</button>
                                         </div>
                                 </li>

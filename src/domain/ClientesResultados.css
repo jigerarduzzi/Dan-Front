@@ -4,6 +4,7 @@ table, th, td {
   }
 
 
+
   th {
       color: #ffff;
       background-color: #24303c;
@@ -14,11 +15,11 @@ table, th, td {
 
     margin: 20px 0;
     box-shadow: 7px 13px 27px #000;
-    border: none;
-    border-radius: 8px;
+    border: 1px #000;
+
   }
 
-  td{
+ td{
     background:#294fa0;
     color: white;
   }

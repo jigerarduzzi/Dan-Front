@@ -2,8 +2,9 @@ import './Clientes.css';
 import ClientesResultados from './ClientesResultados';
 import ClientesForm from './ClientesForm';
 import ClientesBusqueda from './ClientesBusqueda'
+import { useState } from 'react';
 
-const clienteInicial = {
+let clienteInicial = { //si no funca cambiar a let
 	id:0,
 	razonSocial: '-',
 	habilitadoOnline: false,
@@ -11,12 +12,18 @@ const clienteInicial = {
 };
 
 const Clientes = () => {
+    
+    const [cliente, setCliente]=useState(clienteInicial);
+
+
+    const updValor = (v) => setCliente(v);
+
     return(
         <div className="box">
             <div><h1>Gestion de clientes</h1></div>
             <div className="panelForm">
                 <div className="panelFormAlta">
-                    <ClientesForm cliente = {clienteInicial}/>
+                    <ClientesForm cliente = {cliente} actualizarValor={updValor}/>
                     </div>
                 <div className="panelFormBusqueda">
 
@@ -24,9 +31,11 @@ const Clientes = () => {
                 
                 </div>
             </div>
+
             <div>
                 <ClientesResultados/>     
             </div>
+
         </div>
     )
 }
