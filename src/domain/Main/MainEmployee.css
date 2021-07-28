@@ -1,0 +1,12 @@
+.smaller-image{
+    width: 100px;
+    border-radius: 50%;
+    background: #24303c;;
+    border: white 5px solid;
+    margin: 18% 20px 18% 20px;
+}
+
+.icons{
+    width: 25%;
+    
+}

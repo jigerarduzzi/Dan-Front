@@ -1,0 +1,20 @@
+
+#latlong{
+    width: 25%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    color: white;
+    margin: 0px 13px 10px;
+}
+
+.botons{
+    width: 100%;
+    background:#1f53c5;
+    border: none;
+    padding: 6px;
+    color: white;
+    margin: 6px 0; 
+}

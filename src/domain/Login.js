@@ -5,7 +5,7 @@ const Login = () => {
         
         <ul class="form-register">
             
-            <h4 >Iniciar sesión</h4>
+            <div><h4 >Iniciar sesión</h4></div>
             <input class="controls" type="text" placeholder="Usuario"/>
             <input class="controls" type="text" placeholder="*******"/>
             <select class="select" name="Tipo de usuario">
