@@ -28,7 +28,7 @@ function App() {
           <Clientes></Clientes>
         </Route>
 
-        <Route path="/">
+        <Route path="/obraRegistro">
           <ObraRegistro></ObraRegistro>
         </Route>
 

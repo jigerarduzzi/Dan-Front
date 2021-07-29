@@ -4,8 +4,9 @@ const ClientesBusqueda = ({cliente}) => {
         return (
                 <section>
                         <ul class="form-register">
+                        <h4>Búsqueda de clientes</h4>
                                 <li class="controls">
-                                <h4>Búsqueda de clientes</h4>
+                                
                                         <div class="fifty-fifty"> 
                                         {/* Cuando necesite disponer elementos, encerrar entre divs */}
                                                 <input name="razonSocial" placeholder="Filtro 1" />
@@ -28,7 +29,7 @@ const ClientesBusqueda = ({cliente}) => {
                                 </li>
                                 <li class="controls">
                                         <div class = "fifty-fifty-botons">
-                                        <button type="botons">Buscar</button>
+                                        <button type="botons" >Buscar</button>
                                         </div>
                                 </li>
                         </ul>

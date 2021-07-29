@@ -1,4 +1,7 @@
-
+*{
+    
+    background-size:100% 130%;
+  }
 #latlong{
     width: 25%;
     background: #24303c;
@@ -17,4 +20,14 @@
     padding: 6px;
     color: white;
     margin: 6px 0; 
+}
+
+.asd{
+    background: #24303c;
+}
+
+.center{
+    align-items: center;
+    display: flex;
+    height: 100vh;
 }

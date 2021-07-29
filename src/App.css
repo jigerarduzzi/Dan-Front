@@ -4,7 +4,8 @@
 }
 
 *{
-  background-image: url("https://i.pinimg.com/originals/a0/b5/18/a0b518d84aee81ed55819b9775435dfd.jpg");
+  background-image: url("https://wallpaperaccess.com/full/773716.jpg");
+  background-size:100% 110%;
 }
 .App-logo {
   height: 40vmin;
@@ -83,4 +84,8 @@
   padding: 12px;
   color:white;
 
+}
+
+.without-background{
+  background: none;
 }

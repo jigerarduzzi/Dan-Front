@@ -3,10 +3,19 @@
     border-radius: 50%;
     background: #24303c;;
     border: white 5px solid;
-    margin: 18% 20px 18% 20px;
+    margin: 0 40px 0 40px;
+    
 }
 
 .icons{
     width: 25%;
     
 }
+
+
+.center{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+

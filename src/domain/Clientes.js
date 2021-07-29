@@ -20,7 +20,7 @@ const Clientes = () => {
 
     return(
         <div className="box">
-            <div><h1>Gestion de clientes</h1></div>
+            <div ><h1 >Gestion de clientes</h1></div>
             <div className="panelForm">
                 <div className="panelFormAlta">
                     <ClientesForm cliente = {cliente} actualizarValor={updValor}/>
