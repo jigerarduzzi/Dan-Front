@@ -1,4 +1,5 @@
 import './MainEmployee.css';
+import React from 'react';
 
 const Main = () => {
     return(

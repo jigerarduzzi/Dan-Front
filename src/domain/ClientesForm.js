@@ -1,6 +1,7 @@
 import { act } from '@testing-library/react';
 import './ClientesForm.css';
 import { useState } from 'react';
+import React from 'react';
 
 const ClientesForm = ({cliente, actualizarValor }) => {
 

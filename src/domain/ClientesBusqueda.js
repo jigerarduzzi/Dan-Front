@@ -1,4 +1,5 @@
 import './ClientesBusqueda.css';
+import React from 'react';
 
 const ClientesBusqueda = ({cliente}) => {
         return (

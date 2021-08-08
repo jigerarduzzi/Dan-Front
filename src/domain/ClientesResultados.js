@@ -1,4 +1,5 @@
 import './ClientesResultados.css';
+import React from 'react';
 
 const ClientesResultados = () =>{
     return(

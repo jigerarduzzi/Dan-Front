@@ -1,6 +1,6 @@
 
 import './ObraRegistro.css';
-
+import React from 'react';
 const ObraRegistro = () => {
     return(
         <div className="center">

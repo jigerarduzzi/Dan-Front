@@ -1,9 +1,9 @@
 import './Clientes.css';
 import ClientesResultados from './ClientesResultados';
 import ClientesForm from './ClientesForm';
-import ClientesBusqueda from './ClientesBusqueda'
+import ClientesBusqueda from './ClientesBusqueda';
 import { useState } from 'react';
-
+import React from 'react';
 let clienteInicial = { //si no funca cambiar a let
 	id:0,
 	razonSocial: '-',
