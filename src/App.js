@@ -4,6 +4,7 @@ import Clientes from'./domain/Clientes'
 import Login from'./domain/Login'
 import ObraRegistro from './domain/Obra/ObraRegistro';
 import MainEmployee from './domain/Main/MainEmployee';
+import Producto from './domain/Producto/Producto';
 
 import React from "react";
 import {
@@ -30,6 +31,10 @@ function App() {
 
         <Route path="/obraRegistro">
           <ObraRegistro></ObraRegistro>
+        </Route>
+
+        <Route path="/productos">
+          <Producto></Producto>
         </Route>
 
         <Route path ="/">
