@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-
+import  './ProductoAlta.css';
 
 const ProductoAlta = () => {
     return(
@@ -10,14 +10,14 @@ const ProductoAlta = () => {
             
             <h4 id ="myh4">Registrar Producto</h4>
             
-            <Grid container direction="row">
-                <Grid item>
-                <input class="controls" type="text" placeholder="Nombre"/>
+            <Grid container direction="row" id="container">
+                <Grid item id="asd">
+                <input class="controls" type="text" placeholder="Nombre" />
                 <input class="controls" type="float" placeholder="$00.00"/>
+                <input class="controls" type="text" placeholder="Descuento por cantidad"/>
+                <input class="controls" type="text" placeholder="Cantidad mínima"/>
                 </Grid>
-            <input class="controls" type="text" placeholder="Precio Unitario"/>
-            <input class="controls" type="text" placeholder="Descuento por cantidad"/>
-            <input class="controls" type="text" placeholder="Cantidad mínima"/>
+            
             </Grid>
 
             <select class="select" name="Tipo de unidad">

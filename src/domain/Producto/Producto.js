@@ -7,12 +7,12 @@ import EmitirOrden from './EmitirOrden';
 const Producto = () => {
     return(
         <Grid container direction="column">
-            <Grid item >
+            <Grid container>
                 <ProductoAlta></ProductoAlta>
                 <EmitirOrden></EmitirOrden>
             </Grid>
             <Grid item>
-                <h1>Holu</h1>
+                <h1>Agregar Listado de ordenes</h1>
             </Grid>
         </Grid>
     )

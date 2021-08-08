@@ -5,6 +5,7 @@ import Login from'./domain/Login'
 import ObraRegistro from './domain/Obra/ObraRegistro';
 import MainEmployee from './domain/Main/MainEmployee';
 import Producto from './domain/Producto/Producto';
+import Pedido from './domain/Pedido/PedidoEmpleado';
 
 import React from "react";
 import {
@@ -13,6 +14,8 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import PedidoEmpleado from './domain/Pedido/PedidoEmpleado';
+import PagoRegistro from './domain/Pago/PagoRegistro';
 
 function App() {
   return (
@@ -35,6 +38,14 @@ function App() {
 
         <Route path="/productos">
           <Producto></Producto>
+        </Route>
+
+        <Route path="/pedidoEmpleado">
+          <PedidoEmpleado></PedidoEmpleado>
+        </Route>
+
+        <Route path="/pagoRegistro">
+          <PagoRegistro></PagoRegistro>
         </Route>
 
         <Route path ="/">
