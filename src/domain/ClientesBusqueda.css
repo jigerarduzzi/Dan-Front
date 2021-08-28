@@ -68,6 +68,13 @@
     color: white;
     border: none;
 }
+button{
+    margin: 0 10px 0 10px;
+    background: #1f53c5;
+    padding: 12px;
+    color: white;
+    border: none;
+}
 
 .panelFormAlta {
     display: flex;

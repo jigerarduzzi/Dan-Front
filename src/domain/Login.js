@@ -1,21 +1,36 @@
 import './Login.css';
-import React from 'react';
+import React, {useState} from 'react';
 
 
 const Login = () => {
+    const [form, setValues] = useState({
+        mail:'',
+    });
+
+    const handleInput = event=>{
+        setValues({
+            ...form,
+            [event.target.name]:event.target.value,
+        })
+    };
+
+    const handleSubmit = event =>{
+        event.preventDefault();
+        console.log(form);
+    }
     return(
        <div className="center">
-        <ul class="form-register">
+        <form class="form-register" onSubmit={handleSubmit}>
             
             <h4 id ="myh4">Iniciar sesión</h4>
-            <input class="controls" type="text" placeholder="Usuario"/>
-            <input class="controls" type="password" placeholder="*******"/>
-            <select class="select" name="Tipo de usuario">
-                <option value="value1">Cliente</option>
-                 <option value="value2" selected>Empleado</option>
+            <input name="mail" class="controls" type="text" placeholder="Usuario" onChange={handleInput}/>
+            <input name="password" class="controls" type="password" placeholder="*******" onChange={handleInput}/>
+            <select class="select" name="Tipo de usuario" onChange={handleInput}>
+                <option value="cliente">Cliente</option>
+                 <option value="empleado" selected>Empleado</option>
             </select>
             <button class="botons" type="submit" value="ingresar" />
-        </ul>
+        </form>
         </div>
     )
 }
