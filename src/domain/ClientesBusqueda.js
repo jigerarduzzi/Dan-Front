@@ -172,7 +172,7 @@ const ClientesBusqueda = ({ filter, actualizarFiltro }) => {
       <ul class="form-register">
         <h4>Búsqueda de clientes</h4>
 
-        <li class="controls">
+        <li className="controls2">
           <select
             class="select"
             name="Filtro"
@@ -190,19 +190,21 @@ const ClientesBusqueda = ({ filter, actualizarFiltro }) => {
               Mostrar todos
             </option>
           </select>
-          <div class="fifty-fifty">
+          <div >
             {/* Cuando necesite disponer elementos, encerrar entre divs */}
             <input
+              className="newInput"
               name="value filter"
               value={filtro}
               placeholder="Ingrese valor"
               onChange={actualizarFilt}
             />
           </div>
-        </li>
-        <button type="botons" onClick={getClientesData}>
+          <button className="newBoton" type="botons" onClick={getClientesData}>
           Buscar
         </button>
+        </li>
+
         <Table id="users">
           <Thead>
             <Tr>

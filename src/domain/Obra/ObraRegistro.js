@@ -3,6 +3,7 @@ import './ObraRegistro.css';
 import React from 'react';
 const ObraRegistro = () => {
     return(
+        <div className="fondo">
         <div className="center">
         <ul class="form-register" >
             <h4>Ingrese los datos de la obra</h4>
@@ -16,6 +17,7 @@ const ObraRegistro = () => {
             <textarea class ="controls" name="description" rows="10" cols="40" placeholder="Descripción"></textarea>
             <button class="botons">Guardar</button>
         </ul>
+        </div>
         </div>
     )
 }

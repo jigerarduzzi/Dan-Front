@@ -2,8 +2,12 @@
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-    background-color:#11ADD6;
+    background-image: url("https://wallpaperaccess.com/full/773716.jpg");
 	padding: 20px;
+}
+
+*{
+	background: none;
 }
 .panelForm{
 	display: flex;

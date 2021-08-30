@@ -19,6 +19,7 @@ const Login = () => {
         console.log(form);
     }
     return(
+        <div className="fondo">
        <div className="center">
         <form class="form-register" onSubmit={handleSubmit}>
             
@@ -32,6 +33,8 @@ const Login = () => {
             <button class="botons" type="submit" value="ingresar" />
         </form>
         </div>
+        </div>
+        
     )
 }
 

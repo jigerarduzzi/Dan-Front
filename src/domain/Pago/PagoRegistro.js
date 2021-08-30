@@ -2,6 +2,7 @@ import React from 'react';
 
 const PagoRegistro = () => {
     return(
+        <div className="fondo">
        <div className="center">
         <ul class="form-register">
             
@@ -16,6 +17,7 @@ const PagoRegistro = () => {
             </select>
             <input class="botons" type="submit" value="Registrar"/>
         </ul>
+        </div>
         </div>
     )
 }

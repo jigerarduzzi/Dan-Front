@@ -6,6 +6,7 @@ import EmitirOrden from './EmitirOrden';
 
 const Producto = () => {
     return(
+        <div className="fondo">
         <Grid container direction="column">
             <Grid container>
                 <ProductoAlta></ProductoAlta>
@@ -15,6 +16,7 @@ const Producto = () => {
                 <h1>Agregar Listado de ordenes</h1>
             </Grid>
         </Grid>
+        </div>
     )
 }
 

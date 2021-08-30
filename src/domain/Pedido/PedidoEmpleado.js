@@ -3,6 +3,7 @@ import React from 'react';
 
 const PedidoEmpleado = () => {
     return(
+        <div className="fondo">
        <div className="center">
         <ul class="form-register">
             
@@ -41,6 +42,7 @@ const PedidoEmpleado = () => {
 
             <input class="botons" type="submit" value="Enviar Pedido"/>
         </ul>
+        </div>
         </div>
     )
 }
