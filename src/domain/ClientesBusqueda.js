@@ -19,10 +19,10 @@ import {
 
 const prueba = [
   {
-    id: 1,
-    razonSocial: "Cliente01",
-    cuit: "20111111110",
-    mail: "juan@gmail.com",
+    id: "          ",
+    razonSocial: "       ",
+    cuit: "           ",
+    mail: "          ",
     maxCuentaCorriente: null,
     habilitadoOnline: false,
     obras: [
@@ -50,45 +50,13 @@ const prueba = [
     },
     fechaBaja: null,
   },
-  {
-    id: 2,
-    razonSocial: "Cliente02",
-    cuit: "20222222220",
-    mail: "jose@gmail.com",
-    maxCuentaCorriente: null,
-    habilitadoOnline: false,
-    obras: [
-      {
-        id: 2,
-        descripcion: "Frizzer gigante",
-        latitud: 2.45,
-        longitud: 89.11,
-        direccion: "Av Figueroa Alcorta y Udaondo",
-        superficie: 10000,
-        tipo: {
-          id: 3,
-          descripcion: "EDIFICIO",
-        },
-      },
-    ],
-    user: {
-      id: 2,
-      user: "jose@gmail.com",
-      password: "1234",
-      tipoUsuario: {
-        id: 1,
-        tipo: "CLIENTE",
-      },
-    },
-    fechaBaja: null,
-  },
 ];
 
 const ClientesBusqueda = ({ filter, actualizarFiltro }) => {
   const [filtro, setFiltro] = useState(filter.valor);
   const [selector, setSelector] = useState(filter.selector);
   const [path, setPath] = useState("");
-  const [clientes, setListaCliente] = useState(prueba);
+  const [clientes, setListaCliente] = useState([]);
 
   let listaClientes = [];
 
